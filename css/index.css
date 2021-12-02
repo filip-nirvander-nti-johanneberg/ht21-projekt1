@@ -1,0 +1,52 @@
+
+#wrapper {
+    display: grid;
+    grid-template-areas: 
+    'hd hd hd'
+    'nv nv nv'
+    'st st st'
+    'ft ft ft';
+}
+    
+#head {
+    display: grid;
+    grid-area: hd;
+}
+
+#sec1 {
+    display: grid;
+    grid-area: s1;
+}
+
+#sec2 {
+    display: grid;
+    grid-area: s2;
+}
+
+#sec3 {
+    display: grid;
+    grid-area: s3;
+}
+
+#nav {
+    display: grid;
+    grid-area: nv;
+       
+}
+    
+#section {
+    display: grid;
+    grid-area: st;
+        
+}
+
+#footer {
+    display: grid;
+    grid-area: ft;
+}
+    
+
+
+    
+ 
+    
