@@ -2,10 +2,10 @@
 #wrapper {
     display: grid;
     grid-template-areas: 
-    'hd hd hd'
-    'nv nv nv'
-    'st st st'
-    'ft ft ft';
+    'hd hd hd hd hd'
+    'nv nv nv nv nv'
+    'st st st st st'
+    'ft ft ft ft ft';
 }
     
 #head {
@@ -13,20 +13,6 @@
     grid-area: hd;
 }
 
-#sec1 {
-    display: grid;
-    grid-area: s1;
-}
-
-#sec2 {
-    display: grid;
-    grid-area: s2;
-}
-
-#sec3 {
-    display: grid;
-    grid-area: s3;
-}
 
 #nav {
     display: grid;
