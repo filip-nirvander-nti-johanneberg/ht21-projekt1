@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100, 300, 400, 500, 600, 700, 800, 900&display=swap');
+
+#wrapper {
+
+    display: grid;
+    grid-template-rows: 5% 30% 30% 30% 15%;
+    min-height: 1000px;
+    
+}
+
+
+#nav {
+    border: solid black 1px;
+    display: grid;
+    font-family: 'Big Shoulders Text', cursive;
+    color: #000;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+
+#sec1 {
+    background-color: violet;
+    display: grid;
+    font-family: 'Big Shoulders Text', cursive;
+    color: #000;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+#sec2 {
+    background-color: turquoise;
+    display: grid;
+    font-family: 'Big Shoulders Text', cursive;
+    color: #000;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+#sec3 {
+    background-color: whitesmoke;
+    display: grid;
+    font-family: 'Big Shoulders Text', cursive;
+    color: #000;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+#footer {
+    background-color: white;
+    display: grid;
+    font-family: 'Big Shoulders Text', cursive;
+    color: #000;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 300;
+}
